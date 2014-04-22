@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#head{
+background-color:#336699;
+float:left;
+color:white;
+width:100%;
+margin-top: 0px;
+font-size: 300%;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+#about{
+    h2{
+text-indent: 10px;
+font-size:200%;
+    }
+padding-left:25px;
+//padding-top: 50px;
+font-family: helvetica;
+float: left;
+width: 45%;
+}
+
+#sites{
+ul{list-style-type: none}
+    h2{
+     font-size:200%;   
+    }
+float: right;
+width: 45%;
+a:link {
+text-decoration:none;
+font-weight: bold;
+color: #000000;
+}
+a:hover{
+text-decoration:underline;
+}
+}
+
+#social{
+font-size:3em;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	}
+
+.fa-twitter{
+background: #4099FF;
+color: #FFFFFF;
+padding: 0.05em 0.07em;
+	}
+
+.fa-linkedin{
+background: #007bb6;
+color: #ffffff;
+padding: 0.05em 0.07em;
+}
+
+.fa-github{
+ background: #ffffff;
+color: #000000;
+padding: 0.05em 0.07em;
+}
+
+.fa-pencil{
+background: red;
+color: #ffffff;
+padding: 0.05em 0.07em;
+}
+
+@media screen and (max-width: 650px){
+#head{
+font-size:200%;
+} 
+#sites{
+ul{list-style-type: none}
+    h2{
+     font-size:150%;   
+    }
+float: right;
+width: 45%;
+a:link {
+text-decoration:none;
+font-weight: bold;
+color: #000000;
+}
+a:hover{
+text-decoration:underline;
+}
+font-size:16px;
+}
+
+#social{
+font-size:2.5em;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+    
+#about{
+    h2{
+text-indent: 10px;
+font-size:150%;
+    }
+padding-left:25px;
+//padding-top: 50px;
+font-family: helvetica;
+float: left;
+width: 45%;
+font-size:16px;
+}
+
+}
+
+@media screen and (max-width: 515px){
+#head{
+font-size:200%;
+}
+#about{
+    h2{
+font-size:150%;
+    }
+padding-left:25px;
+//padding-top: 50px;
+font-family: helvetica;
+float: none;
+width: 90%;
+font-size:16px;
+}    
+#sites{
+ul{list-style-type: none}
+padding-left:25px;
+    h2{
+     font-size:150%;   
+    }
+float: none;
+width: 90%;
+padding-top:15px;
+a:link {
+text-decoration:none;
+font-weight: bold;
+color: #000000;
+}
+a:hover{
+text-decoration:underline;
+}
+font-size:16px;
+}
+
+#social{
+font-size:2em;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+    
+
+
+}
