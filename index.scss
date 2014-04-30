@@ -17,6 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+
 }
 
 #head{
@@ -30,6 +31,7 @@ font-family: Verdana, Geneva, sans-serif;
 }
 
 #about{
+font-family: 'Open Sans', sans-serif;
     h2{
 text-indent: 10px;
 font-size:200%;
@@ -39,9 +41,12 @@ padding-left:25px;
 font-family: helvetica;
 float: left;
 width: 45%;
+font-size: 16px;
+color:#008B8B;
 }
 
 #sites{
+font-family: 'Open Sans', sans-serif;
 ul{list-style-type: none}
     h2{
      font-size:200%;   
@@ -59,6 +64,7 @@ text-decoration:underline;
 }
 
 #social{
+font-family: 'Open Sans', sans-serif;
 font-size:3em;
 position: fixed;
 bottom: 0;
