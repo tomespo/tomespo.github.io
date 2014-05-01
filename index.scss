@@ -31,22 +31,21 @@ font-family: Verdana, Geneva, sans-serif;
 }
 
 #about{
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans";
     h2{
 text-indent: 10px;
 font-size:200%;
     }
 padding-left:25px;
 //padding-top: 50px;
-font-family: helvetica;
 float: left;
 width: 45%;
 font-size: 16px;
-color:#008B8B;
+color:#000000;
 }
 
 #sites{
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans";
 ul{list-style-type: none}
     h2{
      font-size:200%;   
@@ -64,7 +63,7 @@ text-decoration:underline;
 }
 
 #social{
-font-family: 'Open Sans', sans-serif;
+font-family: "Open Sans";
 font-size:3em;
 position: fixed;
 bottom: 0;
@@ -136,7 +135,7 @@ font-size:150%;
     }
 padding-left:25px;
 //padding-top: 50px;
-font-family: helvetica;
+font-family: "Open Sans", sans-serif;
 float: left;
 width: 45%;
 font-size:16px;
@@ -154,7 +153,7 @@ font-size:150%;
     }
 padding-left:25px;
 //padding-top: 50px;
-font-family: helvetica;
+font-family: "Open Sans";
 float: none;
 width: 90%;
 font-size:16px;

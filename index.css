@@ -28,15 +28,18 @@ time, mark, audio, video {
   font-family: Verdana, Geneva, sans-serif; }
 
 #about {
+  font-family: "Open Sans";
   padding-left: 25px;
-  font-family: helvetica;
   float: left;
-  width: 45%; }
+  width: 45%;
+  font-size: 16px;
+  color: #000000; }
   #about h2 {
     text-indent: 10px;
     font-size: 200%; }
 
 #sites {
+  font-family: "Open Sans";
   float: right;
   width: 45%; }
   #sites ul {
@@ -51,6 +54,7 @@ time, mark, audio, video {
     text-decoration: underline; }
 
 #social {
+  font-family: "Open Sans";
   font-size: 3em;
   position: fixed;
   bottom: 0;
@@ -107,7 +111,7 @@ time, mark, audio, video {
 
   #about {
     padding-left: 25px;
-    font-family: helvetica;
+    font-family: "Open Sans", sans-serif;
     float: left;
     width: 45%;
     font-size: 16px; }
@@ -120,7 +124,7 @@ time, mark, audio, video {
 
   #about {
     padding-left: 25px;
-    font-family: helvetica;
+    font-family: "Open Sans";
     float: none;
     width: 90%;
     font-size: 16px; }
