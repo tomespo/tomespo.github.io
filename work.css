@@ -47,7 +47,12 @@ time, mark, audio, video {
   float: left;
   width: 45%;
   font-size: 16px;
-  color: #000000; }
+  color: #000000;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 1px; }
   #work h2 {
     text-indent: 10px;
     font-size: 200%; }
@@ -128,7 +133,8 @@ time, mark, audio, video {
     font-family: "Open Sans", sans-serif;
     float: left;
     width: 45%;
-    font-size: 16px; }
+    font-size: 16px;
+    border-style: none; }
     #work h2 {
       text-indent: 10px;
       font-size: 150%; } }
@@ -141,7 +147,8 @@ time, mark, audio, video {
     font-family: "Open Sans";
     float: none;
     width: 90%;
-    font-size: 16px; }
+    font-size: 16px;
+    border-style: none; }
     #work h2 {
       font-size: 150%; }
 
