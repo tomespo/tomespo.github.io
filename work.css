@@ -45,6 +45,8 @@ i {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff; }
+  #nav a:visited {
+    color: #ffffff; }
   #nav a:hover {
     text-decoration: underline; }
 
